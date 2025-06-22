@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.glassmorphism {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(30, 30, 47, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
