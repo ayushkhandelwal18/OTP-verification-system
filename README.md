@@ -21,16 +21,23 @@ A secure and modern OTP-based authentication system built with **React**, **Node
 
  ## 📦 Installation
  git clone https://github.com/ayushkhandelwal18/OTP-verification-system.git
+ 
  cd OTP-verification-system
 
 # Install backend
+
 cd server
+
 npm install
+
 npm start
 
 # Install frontend
+
 cd ../my-app
+
 npm install
+
 npm run dev
 
 ✅ Usage
